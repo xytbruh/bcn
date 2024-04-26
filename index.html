@@ -8,20 +8,20 @@
   </head>
   <body>
     <!-- nav -->
-    <nav class="main-bg">
-      <div class="text-main items-center flex py-3 px-12">
+    <nav class="main-bg sticky top-0">
+      <div class="text-main items-center flex py-3 lg:px-20 px-6">
         <div class="flex items-center">
           <img src="assets/img/logo.svg" class="w-10 h-10" alt="" />
           <h1 class="text-xs">Bumi Citta Nesia</h1>
         </div>
-        <div class="mx-auto">
+        <div class="mx-auto hidden lg:block">
           <ul class="flex gap-4">
             <li><a href="">Home</a></li>
             <li><a href="">Tentang Kami</a></li>
             <li><a href="">Tata Cara</a></li>
           </ul>
         </div>
-        <div>
+        <div class="hidden lg:block">
           <ul class="flex gap-4 text-main2">
             <li>
               <a href="" class="main-bg2 py-1 px-4 rounded-full">Daftar</a>
@@ -42,9 +42,11 @@
         background-image: url('assets/img/Pendaan\ dan\ Peluang\ Investasi\ 1.svg');
       "
     >
-      <div class="grid grid-cols-2 text-white">
-        <div class="lg:px-32 lg:py-44">
-          <h1 class="uppercase lg:text-5xl">bumi citta nesia</h1>
+      <div class="grid lg:grid-cols-2 grid-cols-1 text-white">
+        <div class="lg:px-32 lg:py-44 px-24 py-36">
+          <h1 class="uppercase lg:text-5xl text-xl font-bold">
+            bumi citta nesia
+          </h1>
           <p class="text-base">
             PT. Bumi Citta Nusantara mempunyai tujuan dan komitmen dalam
             menciptakan pertanian, perkebunan, perternakan dan perikanan serta
@@ -57,15 +59,15 @@
     <!-- end hero -->
 
     <!-- about us -->
-    <div class="main-bg p-12">
-      <div class="grid grid-cols-2 gap-4">
+    <div class="main-bg lg:p-12 p-4">
+      <div class="grid lg:grid-cols-2 gap-4">
         <img
           src="assets/img/contoh 1.svg"
           class="w-3/4 mx-auto h-auto bg-center bg-cover"
           alt=""
         />
         <div class="text-white space-y-6 px-5">
-          <h1 class="text-center lg:text-3xl">Tentang Kami</h1>
+          <h1 class="text-center lg:text-3xl text-xl">Tentang Kami</h1>
           <p>
             Berdiri sejak tahun 2024, PT. Bumi Citta Nesia (BCN) mempunyai
             tujuan dan mempunyai komitmen yang kuat untuk menciptakan pertanian
@@ -85,9 +87,9 @@
     <!-- end about us -->
 
     <!-- about us2 -->
-    <div class="main-bg2 p-12">
-      <div class="grid grid-cols-2 gap-4">
-        <div class="space-y-4 mx-12">
+    <div class="main-bg2 lg:p-12 p-4">
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="space-y-4 lg:mx-12 mx-5">
           <h1 class="uppercase font-bold lg:text-4xl">
             indonesia sebagai negara pertanian
           </h1>
@@ -105,7 +107,7 @@
             diekspor.
           </p>
         </div>
-        <div class="space-y-4 mx-12">
+        <div class="space-y-4 lg:mx-12 mx-5">
           <h1 class="uppercase font-bold lg:text-4xl">
             SURGA REMPAH-REMPAH DISEBUT INDONESIA
           </h1>
@@ -129,9 +131,9 @@
     <!-- end about us2 -->
 
     <!-- visi misi -->
-    <div class="main-bg p-12 text-main">
-      <div class="grid grid-cols-2 gap-4">
-        <div class="space-y-4 mx-12">
+    <div class="main-bg lg:p-12 p-4 text-main">
+      <div class="grid lg:grid-cols-2 gap-4">
+        <div class="space-y-4 lg:mx-12 mx-5">
           <h1 class="text-4xl font-bold">Misi kita</h1>
           <p>
             Berkontribusi pada petani, untuk meningkatkan kesejahteraan,
@@ -142,7 +144,7 @@
             Berkualitas dan Berkelanjutan
           </p>
         </div>
-        <div class="space-y-4 mx-12">
+        <div class="space-y-4 lg:mx-12 mx-5">
           <h1 class="text-4xl font-bold">Visi kita</h1>
           <p>
             Membangun dan menciptakan Ekosistem Antara Petani dan pelanggan dari
@@ -154,9 +156,9 @@
     <!-- end visi misi -->
 
     <!-- pendanaan -->
-    <div class="main-bg2 p-12 text-black">
-      <div class="grid grid-cols-2 gap-6">
-        <div class="space-y-4 mx-12">
+    <div class="main-bg2 lg:p-12 p-4 text-black">
+      <div class="grid lg:grid-cols-2 gap-6">
+        <div class="space-y-4 lg:mx-12 mx-5">
           <div>
             <h1 class="font-bold text-4xl">Komitmen</h1>
             <p class="font-semibold text-lg">
@@ -181,7 +183,7 @@
           </div>
         </div>
         <div class="m-auto">
-          <div class="main-bg p-12 text-main space-y-4">
+          <div class="main-bg lg:p-12 p-4 rounded-xl text-main space-y-4">
             <h1 class="font-bold text-main text-3xl">Berikan Pendanaan</h1>
             <p class="font-light">
               Yuk menjadi <b class="font-bold"> #PendanaHalal</b> untuk dapat
@@ -198,7 +200,7 @@
           </div>
         </div>
       </div>
-      <p class="mx-12 text-center text-black font-semibold pt-7">
+      <p class="lg:mx-12 mx-5 text-center text-black font-semibold pt-7">
         Tanda perlunya inovasi adalah ketika kemajuan perusahaan mengalami
         hambatan atau kegagalan. Apapun bidang yang ada di perusahaan tersebut.
         Jika ada kendala maka inovasi harus segera dilakukan, karena akan sangat
@@ -210,246 +212,279 @@
       <h1 class="text-main text-center font-bold text-4xl pb-6">
         Rekomendasi Pendanaan
       </h1>
-      <div class="grid grid-cols-5 gap-3 mx-12">
-        <div class="bg-white rounded-md">
-          <div>
-            <img src="assets/img/2024-04-22gambar_utama.jpg.svg" alt="" />
-          </div>
-          <div class="p-2">
-            <h1 class="font-bold text-base pb-8">
-              Pendanaan 9.630/IV/24. Proyek Properti di Malang
-            </h1>
-            <div>
-              <div class="grid grid-cols-2 gap-4 items-center">
-                <h3 class="text-xs">Dana Terkumpul</h3>
-                <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+      
+      <div
+        class="flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-8"
+      >
+        <div class="flex-none bg-white w-2/3 md:w-3/12 mr-8 md:pb-4 border rounded-lg">
+          <a href="#" class="space-y-4">
+            <div class="aspect-w-16 aspect-h-9">
+              <img
+                class="object-cover w-full shadow-md hover:shadow-xl rounded-lg"
+                src="assets/img/2024-04-22gambar_utama.jpg.svg"
+                alt=""
+              />
+            </div>
+            <div class="p-2">
+              <h1 class="font-bold text-base pb-8">
+                Pendanaan 9.630/IV/24. Proyek Properti di Malang
+              </h1>
+              <div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <h3 class="text-xs">Dana Terkumpul</h3>
+                  <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                  <div
+                    class="bg-green-600 h-4 rounded-full"
+                    style="width: 63.8%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-4">
-                <div
-                  class="bg-green-600 h-4 rounded-full"
-                  style="width: 63.8%"
-                ></div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 class="text-xs">Dana Dibutuhkan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Durasi Proyek</h3>
+                  <h3 class="text-xs font-bold">6 Bulan</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Imbal Hasil/Tahun</h3>
+                  <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Minimum Pendanaan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Jenis Akad</h3>
+                  <h3 class="text-xs font-bold">Murabahah</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Terima Imbal Hasil</h3>
+                  <h3 class="text-xs font-bold">Tiap Bulan</h3>
+                </div>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-              <div>
-                <h3 class="text-xs">Dana Dibutuhkan</h3>
-                <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Durasi Proyek</h3>
-                <h3 class="text-xs font-bold">6 Bulan</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Imbal Hasil/Tahun</h3>
-                <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Minimum Pendanaan</h3>
-                <h3 class="text-xs font-bold">Rp 1.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Jenis Akad</h3>
-                <h3 class="text-xs font-bold">Murabahah</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Terima Imbal Hasil</h3>
-                <h3 class="text-xs font-bold">Tiap Bulan</h3>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
-        <div class="bg-white rounded-md">
-          <div>
-            <img src="assets/img/2024-04-22gambar_utama.jpg.svg" alt="" />
-          </div>
-          <div class="p-2">
-            <h1 class="font-bold text-base pb-8">
-              Pendanaan 9.630/IV/24. Proyek Properti di Malang
-            </h1>
-            <div>
-              <div class="grid grid-cols-2 gap-4 items-center">
-                <h3 class="text-xs">Dana Terkumpul</h3>
-                <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+        <div class="flex-none bg-white w-2/3 md:w-3/12 mr-8 md:pb-4 border rounded-lg">
+          <a href="#" class="space-y-4">
+            <div class="aspect-w-16 aspect-h-9">
+              <img
+                class="object-cover w-full shadow-md hover:shadow-xl rounded-lg"
+                src="assets/img/2024-04-22gambar_utama.jpg.svg"
+                alt=""
+              />
+            </div>
+            <div class="p-2">
+              <h1 class="font-bold text-base pb-8">
+                Pendanaan 9.630/IV/24. Proyek Properti di Malang
+              </h1>
+              <div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <h3 class="text-xs">Dana Terkumpul</h3>
+                  <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                  <div
+                    class="bg-green-600 h-4 rounded-full"
+                    style="width: 63.8%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-4">
-                <div
-                  class="bg-green-600 h-4 rounded-full"
-                  style="width: 63.8%"
-                ></div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 class="text-xs">Dana Dibutuhkan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Durasi Proyek</h3>
+                  <h3 class="text-xs font-bold">6 Bulan</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Imbal Hasil/Tahun</h3>
+                  <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Minimum Pendanaan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Jenis Akad</h3>
+                  <h3 class="text-xs font-bold">Murabahah</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Terima Imbal Hasil</h3>
+                  <h3 class="text-xs font-bold">Tiap Bulan</h3>
+                </div>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-              <div>
-                <h3 class="text-xs">Dana Dibutuhkan</h3>
-                <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Durasi Proyek</h3>
-                <h3 class="text-xs font-bold">6 Bulan</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Imbal Hasil/Tahun</h3>
-                <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Minimum Pendanaan</h3>
-                <h3 class="text-xs font-bold">Rp 1.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Jenis Akad</h3>
-                <h3 class="text-xs font-bold">Murabahah</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Terima Imbal Hasil</h3>
-                <h3 class="text-xs font-bold">Tiap Bulan</h3>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
-        <div class="bg-white rounded-md">
-          <div>
-            <img src="assets/img/2024-04-22gambar_utama.jpg.svg" alt="" />
-          </div>
-          <div class="p-2">
-            <h1 class="font-bold text-base pb-8">
-              Pendanaan 9.630/IV/24. Proyek Properti di Malang
-            </h1>
-            <div>
-              <div class="grid grid-cols-2 gap-4 items-center">
-                <h3 class="text-xs">Dana Terkumpul</h3>
-                <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+        <div class="flex-none bg-white w-2/3 md:w-3/12 mr-8 md:pb-4 border rounded-lg">
+          <a href="#" class="space-y-4">
+            <div class="aspect-w-16 aspect-h-9">
+              <img
+                class="object-cover w-full shadow-md hover:shadow-xl rounded-lg"
+                src="assets/img/2024-04-22gambar_utama.jpg.svg"
+                alt=""
+              />
+            </div>
+            <div class="p-2">
+              <h1 class="font-bold text-base pb-8">
+                Pendanaan 9.630/IV/24. Proyek Properti di Malang
+              </h1>
+              <div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <h3 class="text-xs">Dana Terkumpul</h3>
+                  <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                  <div
+                    class="bg-green-600 h-4 rounded-full"
+                    style="width: 63.8%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-4">
-                <div
-                  class="bg-green-600 h-4 rounded-full"
-                  style="width: 63.8%"
-                ></div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 class="text-xs">Dana Dibutuhkan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Durasi Proyek</h3>
+                  <h3 class="text-xs font-bold">6 Bulan</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Imbal Hasil/Tahun</h3>
+                  <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Minimum Pendanaan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Jenis Akad</h3>
+                  <h3 class="text-xs font-bold">Murabahah</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Terima Imbal Hasil</h3>
+                  <h3 class="text-xs font-bold">Tiap Bulan</h3>
+                </div>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-              <div>
-                <h3 class="text-xs">Dana Dibutuhkan</h3>
-                <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Durasi Proyek</h3>
-                <h3 class="text-xs font-bold">6 Bulan</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Imbal Hasil/Tahun</h3>
-                <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Minimum Pendanaan</h3>
-                <h3 class="text-xs font-bold">Rp 1.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Jenis Akad</h3>
-                <h3 class="text-xs font-bold">Murabahah</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Terima Imbal Hasil</h3>
-                <h3 class="text-xs font-bold">Tiap Bulan</h3>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
-        <div class="bg-white rounded-md">
-          <div>
-            <img src="assets/img/2024-04-22gambar_utama.jpg.svg" alt="" />
-          </div>
-          <div class="p-2">
-            <h1 class="font-bold text-base pb-8">
-              Pendanaan 9.630/IV/24. Proyek Properti di Malang
-            </h1>
-            <div>
-              <div class="grid grid-cols-2 gap-4 items-center">
-                <h3 class="text-xs">Dana Terkumpul</h3>
-                <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+        <div class="flex-none bg-white w-2/3 md:w-3/12 mr-8 md:pb-4 border rounded-lg">
+          <a href="#" class="space-y-4">
+            <div class="aspect-w-16 aspect-h-9">
+              <img
+                class="object-cover w-full shadow-md hover:shadow-xl rounded-lg"
+                src="assets/img/2024-04-22gambar_utama.jpg.svg"
+                alt=""
+              />
+            </div>
+            <div class="p-2">
+              <h1 class="font-bold text-base pb-8">
+                Pendanaan 9.630/IV/24. Proyek Properti di Malang
+              </h1>
+              <div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <h3 class="text-xs">Dana Terkumpul</h3>
+                  <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                  <div
+                    class="bg-green-600 h-4 rounded-full"
+                    style="width: 63.8%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-4">
-                <div
-                  class="bg-green-600 h-4 rounded-full"
-                  style="width: 63.8%"
-                ></div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 class="text-xs">Dana Dibutuhkan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Durasi Proyek</h3>
+                  <h3 class="text-xs font-bold">6 Bulan</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Imbal Hasil/Tahun</h3>
+                  <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Minimum Pendanaan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Jenis Akad</h3>
+                  <h3 class="text-xs font-bold">Murabahah</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Terima Imbal Hasil</h3>
+                  <h3 class="text-xs font-bold">Tiap Bulan</h3>
+                </div>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-              <div>
-                <h3 class="text-xs">Dana Dibutuhkan</h3>
-                <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Durasi Proyek</h3>
-                <h3 class="text-xs font-bold">6 Bulan</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Imbal Hasil/Tahun</h3>
-                <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Minimum Pendanaan</h3>
-                <h3 class="text-xs font-bold">Rp 1.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Jenis Akad</h3>
-                <h3 class="text-xs font-bold">Murabahah</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Terima Imbal Hasil</h3>
-                <h3 class="text-xs font-bold">Tiap Bulan</h3>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
-        <div class="bg-white rounded-md">
-          <div>
-            <img src="assets/img/2024-04-22gambar_utama.jpg.svg" alt="" />
-          </div>
-          <div class="p-2">
-            <h1 class="font-bold text-base pb-8">
-              Pendanaan 9.630/IV/24. Proyek Properti di Malang
-            </h1>
-            <div>
-              <div class="grid grid-cols-2 gap-4 items-center">
-                <h3 class="text-xs">Dana Terkumpul</h3>
-                <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+        <div class="flex-none bg-white w-2/3 md:w-3/12 mr-8 md:pb-4 border rounded-lg">
+          <a href="#" class="space-y-4">
+            <div class="aspect-w-16 aspect-h-9">
+              <img
+                class="object-cover w-full shadow-md hover:shadow-xl rounded-lg"
+                src="assets/img/2024-04-22gambar_utama.jpg.svg"
+                alt=""
+              />
+            </div>
+            <div class="p-2">
+              <h1 class="font-bold text-base pb-8">
+                Pendanaan 9.630/IV/24. Proyek Properti di Malang
+              </h1>
+              <div>
+                <div class="grid grid-cols-2 gap-4 items-center">
+                  <h3 class="text-xs">Dana Terkumpul</h3>
+                  <h3 class="text-lg font-bold text-main2">63.08 %</h3>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-4">
+                  <div
+                    class="bg-green-600 h-4 rounded-full"
+                    style="width: 63.8%"
+                  ></div>
+                </div>
               </div>
-              <div class="w-full bg-gray-200 rounded-full h-4">
-                <div
-                  class="bg-green-600 h-4 rounded-full"
-                  style="width: 63.8%"
-                ></div>
+              <div class="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 class="text-xs">Dana Dibutuhkan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Durasi Proyek</h3>
+                  <h3 class="text-xs font-bold">6 Bulan</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Imbal Hasil/Tahun</h3>
+                  <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Minimum Pendanaan</h3>
+                  <h3 class="text-xs font-bold">Rp 1.000.000</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Jenis Akad</h3>
+                  <h3 class="text-xs font-bold">Murabahah</h3>
+                </div>
+                <div>
+                  <h3 class="text-xs">Terima Imbal Hasil</h3>
+                  <h3 class="text-xs font-bold">Tiap Bulan</h3>
+                </div>
               </div>
             </div>
-            <div class="grid grid-cols-2 gap-4">
-              <div>
-                <h3 class="text-xs">Dana Dibutuhkan</h3>
-                <h3 class="text-xs font-bold">Rp 1.200.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Durasi Proyek</h3>
-                <h3 class="text-xs font-bold">6 Bulan</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Imbal Hasil/Tahun</h3>
-                <h3 class="text-xs font-bold">Rp 216.000.000 (18.00%)</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Minimum Pendanaan</h3>
-                <h3 class="text-xs font-bold">Rp 1.000.000</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Jenis Akad</h3>
-                <h3 class="text-xs font-bold">Murabahah</h3>
-              </div>
-              <div>
-                <h3 class="text-xs">Terima Imbal Hasil</h3>
-                <h3 class="text-xs font-bold">Tiap Bulan</h3>
-              </div>
-            </div>
-          </div>
+          </a>
         </div>
       </div>
       <p class="text-center text-main pt-12">Copy Rigt I PT.Bumi Citta Nesia</p>
